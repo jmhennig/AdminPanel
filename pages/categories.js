@@ -211,12 +211,12 @@ function Categories({swal}) {
                                 <td className="">
                                     <button
                                         onClick={() => editCategory(category)}
-                                        className="btn-default mr-2"
+                                        className="btn-default mr-2 my-1"
                                     >Edit
                                     </button>
                                     <button 
                                         onClick={() => deleteCategory(category)}
-                                        className="btn-red"
+                                        className="btn-red my-1"
                                     >Delete
                                     </button>
                                 </td>

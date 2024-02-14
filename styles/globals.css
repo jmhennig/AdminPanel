@@ -38,7 +38,12 @@ label {
 table.basic{
   @apply w-full bg-white rounded-sm border border-gray-200 shadow-md;
 }
-table.basic thead tr td {
+table.basic thead {
+  @apply bg-highlight
+}
+table.basic thead tr td,
+table.basic thead tr th
+{
   @apply text-sm text-gray-800 uppercase font-semibold border-b border-gray-200 px-4 py-2;
 }
 table.basic tr td{
